@@ -1,0 +1,72 @@
+body {
+    background: url("/images/bicycle-ge60262940.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    color: #333030b2;
+  }
+  h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  hr {
+    width: 50%;
+    height: 10px;
+    background: #77746b;
+    border: 5px;
+  }
+  
+  .item {
+    background: rgba(0, 0, 0, 0.411);
+    padding: 30px;
+    border-radius: 30px;
+
+  }
+  p {
+    color: #b2b2b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  span {
+    color: #242322;
+    font-weight: 700;
+  }
+
+  p span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #ee9f0d;
+    font-weight: 700;
+  }
+
+  a {
+    background: #ee9f0d;
+    color: rgb(226, 210, 210);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 90px;
+    font-weight: 700;
+    }
+
+    a:hover {
+      background: rgb(226, 210, 210);
+      color: #77746b;
+      border: #77746b solid 2px;
+    }
+    
+    .grid {
+      /* background: RED; */
+      display: grid; /*tornando as divs em grid */
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /*definindo as colunas*/
+      gap: 15px; /*definindo uma distância uniformes entre as colunas*/
+    }
+  
+
+    

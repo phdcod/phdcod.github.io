@@ -1,0 +1,161 @@
+/* Normalização */
+
+body, 
+h1, 
+h2, 
+p 
+{ /* resetando todos os parametros automáticos do html*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Início do CSS */
+
+
+.menu{
+    width: 60%;
+    border: 1px solid goldenrod;
+}
+
+    
+body {
+    background: lightblue;
+}
+
+.titulo{
+    font-family: "Palette Mosaic";
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    color:#053b81;
+    text-align: center;
+    font-size: 70px;
+}
+
+span {
+    text-align: center;
+    color: #2675dd;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    margin: 40px;
+    padding: 20px;
+  }
+
+.item {
+    background:rgba(216, 207, 202, 0.596);
+    padding: 10px;
+    border: 1px solid rgba(216, 207, 202, 0.596);
+    border-radius: 70px;
+    box-shadow: 6px 6px 12px #22222288;
+}
+
+.item h2 {
+    text-align: center;
+    color: #053b81 ;
+    
+}
+
+p {
+    color: #053b81;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.polaroid {
+    background:rgba(216, 207, 202, 0.596);
+    padding: 15px 15px 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px #22222288;
+}
+
+.polaroid img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+.planeta {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin: 40px;
+    padding: 20px;
+}
+.boton {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+/* Celular tela grande*/
+@media(max-width:740px)
+    {
+        .titulo h1
+            {
+                font-size: 25px;
+                color:yellow;
+            }
+        .text p 
+            {
+                color: white;
+                font-size: 17px;
+                width: 90%;
+            };
+    }
+
+/* Tablet */
+@media(min-width:640px) and (max-width: 1024px)
+{
+    .planeta {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .titulo h1
+        {
+            font-size: 25px;
+            color:yellow;
+        }
+    p 
+        {
+            color: rgb(160, 247, 20);
+            font-size: 18px;
+            width: 80%;
+        };
+   
+}
+
+/* Celular tela pequena */
+@media(max-width: 640px)
+{
+    .titulo h1
+        {
+            font-size: 15px;
+            color:yellow;
+            padding-right: 30px;
+        }
+    .text p 
+        {
+            color: rgb(160, 247, 20);
+            font-size: 15px;
+            width: 90%;
+            padding-right: 30px;
+        };
+        
+}

@@ -1,0 +1,12 @@
+Plugins:
+
+- Portuguese (Brazil) Language Pack for Visual Studio Code
+- Origamid Next (themes)
+- Live Server
+- Prettier - Code formatter v9.3.0
+- HTML CSS Support v1.11.0
+- IntelliSense for CSS class names in HTML v1.20.0
+- Auto Rename Tag v0.1.10
+- file-icons v1.0.29
+- Bracket Pair Colorizer 2 v0.2.2
+- Power Mode v3.0.2

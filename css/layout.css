@@ -1,0 +1,29 @@
+body{
+    background: url("/images/annie-spratt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+h1  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #c03a2b;
+    }
+
+hr  {
+    width: 60%;
+    height: 15px;
+    background-color: #ea9e65;
+    border: none;
+    }
+
+.box{
+    width: 60%;
+    background: #ea9f656c;
+    margin: 40px auto 0 auto;
+    padding: 15px;
+    border-radius: 70px 70px 70px 70px;
+    border: 2px solid #222222;
+    }
